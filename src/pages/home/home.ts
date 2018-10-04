@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { SliderPage } from '../slider/slider';
+import { LocationListPage } from '../location-list/location-list';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -8,7 +8,7 @@ import { SliderPage } from '../slider/slider';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    this.navCtrl.push(SliderPage)
+    this.navCtrl.setRoot(LocationListPage)
   }
 
 }
