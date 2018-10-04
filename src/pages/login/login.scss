@@ -1,3 +1,38 @@
 page-login {
+    
+    ion-item {
+        max-width: 95%;
+    }
+    .login-image {
+        max-height: 50%;
+        max-width: 60%;
+        margin: 12vh 0 10px 0;
+        border-radius: 100%;
+    }
 
+    .Loginbtn {
+        width: 95%;
+        border-radius: 15px;
+    } 
+    
+    .SignUpbtn {
+        width: 60%;
+        border-radius: 15%x;
+    }
+
+    .Loginbtn , .SignUpbtn {
+
+        margin-top: 20px;
+        padding: 18px 40px;
+        background-color: #DD4B39;
+        font-size: 22px;
+        color: #ffffff;
+
+    }
+
+    a {
+        color: #DD4B39;
+        font-weight: bold;
+        margin: 15px 0;
+    }
 }

@@ -17,7 +17,6 @@ import { ProfilePage } from '../pages/profile/profile';
 import { RegisterPage } from '../pages/register/register';
 
 
-
 @NgModule({
   declarations: [
     MyApp,

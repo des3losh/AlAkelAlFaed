@@ -14,3 +14,44 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+
+// All Pages font 
+* {
+
+    font-family: 'Segoe UI';
+   
+}
+
+
+
+// the top nav style
+.top-nav * {
+    margin: 0 ;
+    padding: 0;
+}
+
+.top-nav {
+    margin: 3vh 0.5vw 0 0.5vw;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav-description h2 {
+    color: #DD4B39;
+    font-weight: 400;
+    font-family: 'Segoe UI'
+}
+
+.close-icon {
+    font-size: 45px;
+}    
+
+ion-icon {
+    margin: 0;
+}
