@@ -1,3 +1,89 @@
 page-about {
 
+.aboutAddress{
+position: absolute;
+top: 4vh;
+right: 20px;
+color:#E05C4C;
+font-weight: bold;
+
+}
+.Xicon{
+    
+    position: absolute;
+    top: 4vh;
+    left: 10vw;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.header-text{
+    position: absolute;
+    top: 11vh;
+    right: 20px;
+    font-size: 14px;
+}
+
+
+.person-items{
+   position: absolute;
+    top: 25vh;
+    margin: 5px;
+  
+}
+
+.item1{
+    position: absolute;
+    top: 30vh;
+    background-color:#FBFBFB;
+    border-radius: 5px;
+    width: 318px;
+    left: 6px;
+    height: 75px; 
+}
+.item2{
+    position: absolute;
+    top: 45vh;
+    background-color:#FBFBFB;
+    border-radius: 5px;
+    width: 318px;
+    left: 6px;
+    height: 75px; 
+}
+
+.contact-icon{
+    position: absolute;
+    font-size: 50px;
+    right: 8px;
+    top: 1vh;
+}
+.pra-item{
+    position: absolute;
+    right: 16vw;
+    margin: 0;
+    top: 6vh;
+    font-size: 14px;
+}
+.title-item{
+    position: absolute;
+    right: 16vw;
+    margin: 0; 
+    top: 2vh;
+    color: #E05C4C;
+    font-weight: bold;
+    font-size: 18px;
+}
+.circle-img{
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 7vh;
+    height:7px;
+width: 7px;
+}
+// .imgg{
+// position: absolute;
+// height:7px;
+// width: 7px;
+// }
 }

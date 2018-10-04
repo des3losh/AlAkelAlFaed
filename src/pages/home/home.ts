@@ -10,7 +10,7 @@ import { SliderPage } from '../slider/slider';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    this.navCtrl.push(SliderPage)
+    this.navCtrl.setRoot(LoginPage)
   }
 
 }
