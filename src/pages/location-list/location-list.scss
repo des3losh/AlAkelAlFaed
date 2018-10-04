@@ -2,29 +2,49 @@ page-location-list {
 
     
 
-        .LocationListAddress{
-        position: absolute;
-        top: 4vh;
-        right: 20px;
-        color:#E05C4C;
-        font-weight: bold;
-        
-        }
-        .Xicon{
-            
-            position: absolute;
-            top: 4vh;
-            left: 10vw;
-            font-size: 40px;
-            font-weight: bold;
-            
-        }
-        .header-text{
-            position: absolute;
-            top: 11vh;
-            right: 20px;
-            font-size: 14px;
-        }
+    .location-cont * {
+        margin: 0;
+    }
+
+    .location-cont {
+        max-width: 90%;
+        background-color: #232323;
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+
+
+
+
+
+
+
+.LocationListAddress{
+position: absolute;
+top: 4vh;
+right: 20px;
+color:#E05C4C;
+font-weight: bold;
+
+}
+.Xicon{
+    
+    position: absolute;
+    top: 4vh;
+    left: 10vw;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.header-text{
+    position: absolute;
+    top: 11vh;
+    right: 20px;
+    font-size: 14px;
+}
 
 
 
